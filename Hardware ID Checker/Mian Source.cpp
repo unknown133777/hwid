@@ -5,12 +5,12 @@
 void textcolor(int foreground, int background);
 
 int main() {
-	system("mode con: cols=85 lines=50");
+	system("mode con: cols=85 lines=55");
 
 	system("cls");
 	std::cout << std::endl;
 	textcolor(YELLOW, BLACK);
-	std::cout << "made by https://github.com/zzxz46412" << std::endl;
+	std::cout << "https://github.com/zzxz46412" << std::endl;
 
 	std::cout << std::endl;
 	
@@ -46,6 +46,13 @@ int main() {
 	std::cout << "< cpu processorid >" << std::endl;
 	textcolor(LIGHTRED, BLACK);
 	system("wmic cpu get processorid");
+
+	std::cout << std::endl;
+
+	textcolor(GREEN, BLACK);
+	std::cout << "< volume serialnumber >" << std::endl;
+	textcolor(LIGHTRED, BLACK);
+	system("vol");
 	
 	std::cout << std::endl;
 
