@@ -10,7 +10,7 @@ int main() {
 	system("cls");
 	std::cout << std::endl;
 	textcolor(YELLOW, BLACK);
-	std::cout << "https://github.com/zzxz46412" << std::endl;
+	std::cout << "https://github.com/lee-d-g2222" << std::endl;
 
 	std::cout << std::endl;
 	
